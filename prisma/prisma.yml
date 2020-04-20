@@ -1,0 +1,10 @@
+#endpoint: ''
+#endpoint: ''endpoint: https://eu1.prisma.sh/adrian-beria-e1d9b7/links/dev
+
+
+
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ../src/generated/prisma-client
